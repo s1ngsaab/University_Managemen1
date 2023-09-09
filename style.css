@@ -1,0 +1,91 @@
+body{
+	
+	background-image: url(img.jpeg);
+	
+	background-size: cover;
+}
+
+
+*{
+	
+	text-decoration:none;
+	list-style: none;
+}
+nav{
+	height: 80px;
+	width: 100%;
+	background-color: #1d2e2d;
+	border: 2px solid yellow;
+	border-radius: 20px;
+	
+	
+}
+label.logo{
+	font-size: 30px;
+	font-weight: bold;
+	color: rgb(255, 251, 251);
+	padding: 10 100px;
+	padding-top: 4px;
+	padding-left: 30px;
+}
+nav ul{
+	float: right;
+	margin-right: 60px;
+
+}
+nav li{
+	display: inline-block;
+	margin: 0 4px;
+	line-height: 80px;
+}
+nav a{
+	color: rgb(245, 255, 55);
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 7px 10px ;
+	border: 1px solid ;
+	border-radius: 800px;
+
+
+}
+a.active,a:hover{
+	border: 1px solid rgb(245, 255, 55);
+	transition: .5s;
+	color: rgb(245, 255, 55);
+	text-decoration: none;
+
+}
+
+h1{
+	font-weight: bolder;
+	font-size: 55px;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	color: rgb(255, 251, 0);
+}
+
+h5{
+	font-weight: bold;
+	font-size: 25px;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+h6{
+	/* -webkit-text-stroke-width: 1px; */
+	/* -webkit-text-stroke-color: rgb(0, 0, 0); */
+	color: rgb(225, 255, 0);
+}
+
+div.ums{
+	color: rgb(0, 0, 0);
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "Georgia", Times, serif;
+	margin-top: 40px;
+	padding-top: 100px;
+	padding-left: 20px;
+
+}
+
+/*designed by Akash Singh B_tech 2nd year 2022 Roll_No 2020021019*/
